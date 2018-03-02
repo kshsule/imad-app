@@ -24,12 +24,12 @@ var articles = {
   },
   'article-two' : {
      title : 'Article Two | Kshitij Sule',
-  heading: 'Article Two on IMAD',
-  date: '26th Feb, 2018',
-  content: `
+     heading: 'Article Two on IMAD',
+     date: '26th Feb, 2018',
+     content: `
             <p>
                 This is the content for Article Two.
-            </p> 
+            </p> `
   }
   };
 
