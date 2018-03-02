@@ -3,6 +3,12 @@ var element = document.getElementById('main-text');
 element.innerHTML = "New Text";
 
 var img = document.getElementById("dragon");
+var moveLEft = 0;
+function moveRight(){
+    moveLeft = moveLeft + 1;
+    img.style.marginLeft = moveLeft;
+}
 img.onclick = function(){
-    img.style.marginLeft = '150px';
+    var interval = setInterval(moveRight,50);
+    
 };
